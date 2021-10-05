@@ -1,0 +1,59 @@
+* {
+    margin-left: .5rem;
+    margin-right: .5rem;
+    
+}
+
+main {
+    background: linear-gradient(90deg, red 0%, rgba(230,5,5,1) 0%, rgb(252, 252, 252) 100%);
+}
+
+.title {
+  display: flex;
+  justify-content: space-between;
+  background-color: red;
+}
+
+.search-bar {
+  padding: 2rem;  
+  background-color: red; 
+}
+.start {
+    display: flex;
+    justify-content: left;
+    background-color: red;
+}
+
+.fa-tv {
+    padding:0px 10px 0px 10px ;
+    background-color: red;
+}
+
+.second-part {
+    display: flex;
+    justify-content: space-around;
+}
+
+.netflix-top-10 {
+    background-color: red;
+    height: 20vh;
+}
+
+.hulu-top-10 {
+    background-color: red;
+    height: 20vh;
+    width: 60vw;  
+    display: inline;  
+}
+
+.recommend-part {
+    background-color: red;
+    height: 20vh;
+    width: 60vw;
+}
+.genre {
+    background-color: red;
+    height: 50vh;
+    width: 25%;
+    margin-left: 0cm;
+}
