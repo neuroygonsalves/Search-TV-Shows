@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+​
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400,400i,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+<link rel="stylesheet" href="./assets/css/styles.css">
+  <title>HTML for Project One</title>
+</head>
+​
+​
+<body class="fav-TV-shows">
+    <!-- Title with Search Bar -->
+    <header class="title">
+        <h1 class="start">
+            <i class="fas fa-tv"></i> Search Your TV Show
+        </h1>
+        <form class="search-bar justify-right">
+            <label class="form-label" for="usertype">Search：</label>
+            <input name="keyword" id="user-keyword" type="text" class="form-input" />
+            <button type="submit" class="btn">Submit</button>
+        </form>
+    </header>
+  
+    <main class="search-TV-shows">
+​
+    <!-- Netflix top 10 TV Shows -->
+       
+        <div class="netflix-top-10">
+            <h2>Netflix Recommendations</h2>
+            <ul class="netflix-recommend">
+                    
+            </ul>
+        </div>
+​
+        <!-- Hulu, recommend, and genre section -->
+        <div class="second-part">
+​
+            <div class="hulu-and-recommend">
+​
+                <!-- Hulu top 10 shows -->
+                <div class="hulu-top-10">
+                    <ul class="hulu-recommend"></ul>
+                </div>
+​
+                <!-- Recommend based on user search -->
+                <div class="recommend-part">
+                    <ul class="recommend"></ul>
+                </div>
+            </div>
+​
+            <!-- Genre on the right side -->
+            <div class='genre'>
+                <ul class="classify"></ul>
+            </div>
+            
+        </div>
+    
+    </main>
+  
+    <script type="text/javascript" src="./assets/js/script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  </body>
+​
